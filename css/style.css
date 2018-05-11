@@ -1,0 +1,65 @@
+body {
+  background-image: url("../images/background.jpg");
+  font-family: 'Ubuntu';
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(90%);
+}
+
+img {
+  margin: 30px 0px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fab {
+  font-size: 39px;
+  color: #fff;
+  padding: 18px;
+  width: 80px;
+  text-align: center;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+
+.fab:hover, img:hover {
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+  filter: brightness(110%);
+}
+
+.fa-facebook-f {
+  background: #3B5998;
+}
+
+.fa-instagram {
+  background: #e23bb5;
+}
+
+.fa-whatsapp {
+  background: #27d93e;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 750px;
+  }
+}
